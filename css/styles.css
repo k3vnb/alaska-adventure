@@ -131,6 +131,9 @@ body {
   display: inline;
   margin-right: 30px;
 }
+.sub-nav li:first-child {
+  color: white;
+}
 .sub-nav li:nth-child(5) {
   border-left: 1px solid #bdbdb7;
   padding: 15px;
@@ -168,6 +171,12 @@ body {
   color: white;
   padding-left: 25px;
   padding-bottom: 42px;
+}
+.large-block:hover .center-thing, .small-block:hover
+.center-thing {
+  box-shadow: 0px 0px 10px white;
+  height: 110px;
+  width: 110px;
 }
 
 .center-thing-container {
